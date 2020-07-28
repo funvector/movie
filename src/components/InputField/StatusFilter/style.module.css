@@ -1,0 +1,23 @@
+.statusFilter {
+  padding: .5em;
+}
+
+.watchedActive {
+  text-align: center;
+  border-bottom: 4px solid blue;
+}
+
+.watchedActiveP {
+  font-weight: bold;
+  color: blue;
+}
+
+.watched {
+  text-align: center;
+  border-bottom: 4px solid black;
+}
+
+.watchedP {
+  font-weight: bold;
+  color: black;
+}

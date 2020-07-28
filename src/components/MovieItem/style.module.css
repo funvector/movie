@@ -1,0 +1,34 @@
+.basic {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: .4em;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.basicOpen {
+  justify-content: space-between;
+  border-top: 1px solid gray;
+  padding: .4em;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.basicIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.basicP {
+  margin: 0;
+  padding: 0;
+}

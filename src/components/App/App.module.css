@@ -1,0 +1,53 @@
+.App {
+  box-sizing: border-box;
+  padding: 4rem;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 2em 0;
+}
+
+.containerButtons {
+  display: flex;
+  flex-grow: 1;
+}
+
+@media(max-width: 1000px) {
+  .App {
+    box-sizing: border-box;
+    padding: 2rem;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 600px) {
+  .container {
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+    flex-flow: column-reverse wrap;
+    margin: 2em 0;
+  }
+
+  .containerButtons {
+    display: flex;
+    flex-grow: 1;
+    padding: 2em 0;
+  }
+
+  .conteinerInputSearch {
+    display: flex;
+    width: 100%;
+  }
+
+  .searchInputField {
+    flex-grow: 1;
+    width: 100%;
+  }
+}

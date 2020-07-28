@@ -1,0 +1,12 @@
+.AddMovieContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  align-items: center;
+}
+
+@media(max-width: 450px) {
+  .AddMovieContainer {
+    justify-content: space-between;
+  }
+}

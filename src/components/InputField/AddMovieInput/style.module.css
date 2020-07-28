@@ -1,0 +1,17 @@
+.inputField {
+  border: 1px solid grey;
+  padding: 1rem;
+  width: auto;
+  outline: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+@media(max-width: 350px) {
+  .inputField {
+    width: 100%;
+  }
+}
